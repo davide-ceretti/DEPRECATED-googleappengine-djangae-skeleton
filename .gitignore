@@ -1,0 +1,3 @@
+*.pyc
+lib/
+!lib/README.md
