@@ -10,11 +10,21 @@ indexes:
 # automatically uploaded to the admin console when you next deploy
 # your application using appcfg.py.
 
+- kind: auth_permission
+  properties:
+  - name: content_type_id
+  - name: codename
+
 - kind: django_admin_log
   properties:
   - name: user_id
   - name: action_time
     direction: desc
+
+- kind: django_content_type
+  properties:
+  - name: app_label
+  - name: name
 
 - kind: django_migrations
   properties:

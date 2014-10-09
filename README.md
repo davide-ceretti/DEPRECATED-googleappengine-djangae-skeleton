@@ -5,6 +5,8 @@ WARNING: This is still in development
 
 A skeleton for building Django applications on Google App Engine using Djangae (https://github.com/lukebpotato/djangae)
 
+It's currently deployed at http://djangae-skeleton.appspot.com/
+
 Install
 -------
 
@@ -17,6 +19,7 @@ rm google_appengine_1.9.11.zip
 export PATH=$PATH:~/google_appengine/
 
 # Clone this repo
+git clone https://github.com/davide-ceretti/googleappengine-djangae-skeleton
 
 # Install requirements
 cd googleappengine-python-flask-skeleton

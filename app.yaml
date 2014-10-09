@@ -1,4 +1,4 @@
-application: your-application-id-here
+application: djangae-skeleton
 version: 1
 runtime: python27
 api_version: 1
@@ -15,6 +15,5 @@ handlers:
   script: application.application.wsgi.application
 
 skip_files:
-- ^(.*/)?app.yaml
 - ^(.*/)?.*\.py[co]
 - ^\.gaedata
