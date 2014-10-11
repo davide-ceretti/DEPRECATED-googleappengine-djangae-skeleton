@@ -3,15 +3,16 @@ version: 1
 runtime: python27
 api_version: 1
 threadsafe: yes
-handlers:
 
+builtins:
+- remote_api: on
+
+handlers:
 - url: /_ah/(mapreduce|queue|warmup).*
-  # script: application.wsgi.application
   script: application.application.wsgi.application
   login: admin
 
 - url: /.*
-  # script: application.wsgi.application
   script: application.application.wsgi.application
 
 skip_files:
