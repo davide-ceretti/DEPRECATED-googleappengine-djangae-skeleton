@@ -48,3 +48,14 @@ Deploy
 * Use the Admin Console to create a project/app id. (App id and project id are identical)
 * Update app.yaml with the chosen app id
 * ```./deploy.sh```
+
+Open shell
+----------
+
+```
+# Remote
+./shell_remote.sh
+
+# Local
+./shell.sh
+```
