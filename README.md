@@ -1,11 +1,13 @@
 googleappengine-djangae-skeleton
 ================================
 
-WARNING: This is still in development
+**NOTE: potato has released djangae-scaffold (https://github.com/potatolondon/djangae-scaffold), I recommend to use that instead**
 
 A skeleton for building Django applications on Google App Engine using Djangae (https://github.com/lukebpotato/djangae)
 
 It's currently deployed at http://djangae-skeleton.appspot.com/
+
+The project is still in development, check out TODO.md
 
 Install
 -------
@@ -22,7 +24,7 @@ export PATH=$PATH:~/google_appengine/
 git clone https://github.com/davide-ceretti/googleappengine-djangae-skeleton
 
 # Install requirements
-cd googleappengine-python-flask-skeleton
+cd googleappengine-djangae-skeleton
 pip install -r requirements.txt -t lib
 ```
 
